@@ -84,7 +84,7 @@ public class Data {
         this.ano = ano; // Define um novo valor para o ano
     }
 
-    //Método toString para exibir a data no formato "dia/mês/ano"
+    //Metodo toString para exibir a data no formato "dia/mês/ano"
     @Override
     public String toString() {
         return dia + "/" + mes + "/" + ano; // Retorna a data em formato legível

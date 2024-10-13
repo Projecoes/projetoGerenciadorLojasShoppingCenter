@@ -74,5 +74,12 @@ public class Loja {
     public void setDataFundacao(Data dataFundacao) {
         this.dataFundacao = dataFundacao;
     }
-
+    @Override
+    public String toString() {
+        return "Nome: " + getNome()
+                + "\nQuantidade de funcionário: " + getQuantidadeFuncionarios()
+                + "\nSalário base dos funcionários:  " + getSalarioBaseFuncionario()
+                + "\nEndereço: " + getEndereco()
+                + "\nData da Fundação: " + getDataFundacao();
+    }
 }

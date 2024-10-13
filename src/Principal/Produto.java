@@ -54,4 +54,9 @@ public class Produto {
         return false; // em dia
     }
 
+    public String toString() {
+        return "Nome do Produto: " + getNome()
+                + "\nPreço do produto: " + getPreco()
+                + "\nValidade: " + getDataValidade();
+    }
 }
